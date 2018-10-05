@@ -16,6 +16,9 @@ https://github.com/golang/go/tree/master/misc/wasm
 on windows:
 
 ```set GOOS=js```
+
 ```set GOARCH=wasm```
+
 ```go build -o main.go main.wasm```
+
 ```go run server.go```
